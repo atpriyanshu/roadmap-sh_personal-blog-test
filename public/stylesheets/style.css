@@ -1,0 +1,18 @@
+body {
+  font-family: cursive, system-ui, sans-serif;
+}
+
+main {
+  max-width: 85ch;
+  margin-inline: auto;
+}
+
+form > * {
+  display: block;
+}
+
+/* UTILITIES */
+
+.fs-400 {
+  font-size: 1.2rem;
+}

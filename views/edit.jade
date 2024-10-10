@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  main
+    h1 Edit Blog
+    form(action="/edit/"+i, method="post") 
+      input(name="name", placeholder="Blog Name", value=blog.name)
+      textarea(name="content", cols="30", rows="10")= blog.content
+      input(type="submit", value="Submit")

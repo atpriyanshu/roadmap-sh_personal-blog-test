@@ -1,0 +1,7 @@
+extends layout 
+
+block content 
+  h1 Admin Panel
+  ol
+    each blog in blogs 
+      li= blog.name

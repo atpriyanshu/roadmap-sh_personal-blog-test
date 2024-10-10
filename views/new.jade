@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  main
+    h1 Create Blog
+    form(action="/new", method="post") 
+      input(name="name", placeholder="Blog Name")
+      textarea(name="content", cols="30", rows="10") 
+      input(type="submit", value="Submit")
